@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^editor/$ editor.php?page= [L]
+RewriteRule ^editor/([^/\.]+)/?$ editor.php?page=$1 [L]
+RewriteRule ^([^/\.]+)/?$ index.php?page=$1 [L]

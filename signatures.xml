@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<signatures>
+	<MALsig owner='GRA0007'>
+		<config>
+			<public>yes</public>
+			<format>jpg</format>
+		</config>
+		<signature width='400' height='135'>
+			<element type='image' x='6' y='25' r='0' source='test.png' height='400' width='400' aspect-ratio='keep' />
+			<element type='text' x='6' y='25' r='0' font-family='Arial' font-size='20' color='#FFF' text-align='left' limit='30'>Template Signature</element>
+		</signature>
+	</MALsig>
+	<MALsig owner='test'>
+		<config>
+			<public>yes</public>
+			<format>jpg</format>
+		</config>
+		<signature width='400' height='135'>
+			<element type='image' x='6' y='25' r='0' source='test.png' height='400' width='400' aspect-ratio='keep' />
+			<element type='text' x='6' y='25' r='0' font-family='Arial' font-size='20' color='#FFF' text-align='left' limit='30'>Template Signature</element>
+		</signature>
+	</MALsig>
+	<MALsig owner='test2'>
+		<config>
+			<public>yes</public>
+			<format>jpg</format>
+		</config>
+		<signature width='400' height='135'>
+			<element type='image' x='6' y='25' r='0' source='test.png' height='400' width='400' aspect-ratio='keep' />
+			<element type='text' x='6' y='25' r='0' font-family='Arial' font-size='20' color='#FFF' text-align='left' limit='30'>Template Signature</element>
+		</signature>
+	</MALsig>
+</signatures>
